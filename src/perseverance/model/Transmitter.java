@@ -17,14 +17,15 @@ public class Transmitter implements SelfCheckCapable {
 
 	private String transmissionRate;
 
+	//measures frequency of the signals transmitted
 	public void measureFrequncy() {
 
 	}
-
+//send the required signal
 	public void sendSignal() {
 
 	}
-
+//moves antenna for proper transmission when disrupted or commanded to
 	public void moveAntenna() {
 
 	}

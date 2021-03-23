@@ -16,11 +16,11 @@ public class Battery implements SelfCheckCapable {
 	private String power;
 
 	private void recharge() {
-
+System.out.println("Recharges the battery with the power in stock");
 	}
 
 	private void getWatts() {
-
+System.out.println("returns power in watts used by the battery");
 	}
 
 	@Override

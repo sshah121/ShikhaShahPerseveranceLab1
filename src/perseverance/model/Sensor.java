@@ -16,19 +16,19 @@ public class Sensor implements SelfCheckCapable {
 	private String intensity;
 
 	private String weatherInstruments;
-
+//measures atmospheric pressure
 	public void measurePressure() {
 
 	}
-
+//Generates reports of the instruments usage and failure if any
 	public void generateReport() {
 
 	}
-
+//measures the heat and temperature for thermal stability
 	public void measureHeat() {
 
 	}
-
+//identify obstacles before damage
 	public void identifyObstacle() {
 
 	}

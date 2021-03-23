@@ -15,15 +15,15 @@ public class Light implements SelfCheckCapable	 {
 
 	private String brightness;
 
-	// get howmuch power is consumed
+	// get how much power is consumed
 	public int powerConnsumption() {
 		return 0;
 	}
-
+//gets the distance of the beam reflected for viewing a distant object
 	public long beamDistance() {
 		return 1;
 	}
-
+//dims the light when less required to save power
 	public String dim() {
 		return null;
 	}

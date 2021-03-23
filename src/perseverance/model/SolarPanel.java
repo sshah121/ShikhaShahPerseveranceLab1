@@ -15,10 +15,11 @@ public class SolarPanel implements SelfCheckCapable {
 
 	private String watt;
 
+	//gets the power generated in watts
 	public String getPower() {
 		return null;
 	}
-
+//gets the energy consumed by the devices and instruments in rover
 	public String energyConsumed() {
 		return null;
 	}

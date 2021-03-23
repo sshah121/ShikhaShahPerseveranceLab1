@@ -20,15 +20,17 @@ public class Controller implements SelfCheckCapable {
 	private String memory;
 
 	public void takePicture() {
-
+		System.out.println("takes picture when commanded by the team");
+       Camera cam = new Camera();
+       cam.captureImage();
 	}
 
 	public void operateInstruments() {
-
+		System.out.println("Operates a specified instrument");
 	}
 
 	public void requestInformation() {
-
+		System.out.println("Gets information of the instruments or atmospheric elements as requested");
 	}
 
 	@Override

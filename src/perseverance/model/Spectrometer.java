@@ -16,19 +16,20 @@ public class Spectrometer implements SelfCheckCapable {
 	private long sampleSize;
 
 	private long focalLength;
-
+	
+//collects samples from the land for further study
 	private void collectSamples() {
 
 	}
-
+//drills the surface land for a better land sample
 	private void drill() {
 
 	}
-
+//rotates the arm of spectrometer
 	private void rotate() {
 
 	}
-
+//analyzes elemental composition of the sample
 	private void analyzeElement() {
 
 	}
